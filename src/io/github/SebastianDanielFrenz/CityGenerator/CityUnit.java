@@ -2,7 +2,11 @@ package io.github.SebastianDanielFrenz.CityGenerator;
 
 import java.awt.Graphics;
 
-public interface CityUnit {
-	public void draw(Graphics g);
-	public int getSize();
+public abstract class CityUnit {
+
+	public abstract void draw(Graphics g, int x, int y, int offsetX, int offsetY);
+
+	public abstract int getSize();
+	
+	public abstract Field getField(int x, int y);
 }
