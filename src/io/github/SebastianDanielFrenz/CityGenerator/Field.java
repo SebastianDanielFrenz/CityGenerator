@@ -20,11 +20,6 @@ public class Field extends CityUnit {
 	}
 
 	@Override
-	public int getSize() {
-		return 1;
-	}
-
-	@Override
 	public Field getField(int x, int y) {
 		return this;
 	}
