@@ -1,7 +1,7 @@
 package io.github.SebastianDanielFrenz.CityGenerator;
 
-public class UnitS {
+public class Building {
 	
-	protected HousingUnit[] contents;
+	
 
 }
