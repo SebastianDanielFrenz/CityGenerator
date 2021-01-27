@@ -4,7 +4,7 @@ import java.awt.Graphics;
 
 public abstract class CityUnit {
 
-	public abstract void draw(Graphics g, int x, int y, int offsetX, int offsetY);
+	public abstract void draw(Graphics g, int x, int y);
 	
 	public abstract Field getField(int x, int y);
 }

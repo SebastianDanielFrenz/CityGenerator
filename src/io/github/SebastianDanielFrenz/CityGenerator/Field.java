@@ -15,8 +15,8 @@ public class Field extends CityUnit {
 	}
 
 	@Override
-	public void draw(Graphics g, int x, int y, int offsetX, int offsetY) {
-		g.drawRect(x * 10 + offsetX, y * 10 + offsetY, 10, 10);
+	public void draw(Graphics g, int x, int y) {
+		g.drawRect(x * 10, y * 10, 10, 10);
 	}
 
 	@Override
